@@ -1,0 +1,218 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:4051 U?
+U 1 1 6012AB4C
+P 5400 3800
+F 0 "U?" H 5750 3850 50  0000 L CNN
+F 1 "4051" H 5750 3750 50  0000 L CNN
+F 2 "" H 5400 3800 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf" H 5400 3800 50  0001 C CNN
+	1    5400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6016877D
+P 4650 4100
+F 0 "R?" V 4600 3950 50  0000 C CNN
+F 1 "R" V 4600 4250 50  0000 C CNN
+F 2 "" V 4580 4100 50  0001 C CNN
+F 3 "~" H 4650 4100 50  0001 C CNN
+	1    4650 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 4100 4900 4100
+$Comp
+L power:GND #PWR?
+U 1 1 60169696
+P 5400 4900
+F 0 "#PWR?" H 5400 4650 50  0001 C CNN
+F 1 "GND" H 5405 4727 50  0000 C CNN
+F 2 "" H 5400 4900 50  0001 C CNN
+F 3 "" H 5400 4900 50  0001 C CNN
+	1    5400 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4900 5400 4800
+Wire Wire Line
+	5500 4700 5500 4800
+Wire Wire Line
+	5500 4800 5400 4800
+Connection ~ 5400 4800
+Wire Wire Line
+	5400 4800 5400 4700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6016AD42
+P 5400 2650
+F 0 "#PWR?" H 5400 2500 50  0001 C CNN
+F 1 "+3.3V" H 5415 2823 50  0000 C CNN
+F 2 "" H 5400 2650 50  0001 C CNN
+F 3 "" H 5400 2650 50  0001 C CNN
+	1    5400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2650 5400 2800
+$Comp
+L Device:C C?
+U 1 1 6016CD3F
+P 4900 2800
+F 0 "C?" V 4648 2800 50  0000 C CNN
+F 1 "C" V 4739 2800 50  0000 C CNN
+F 2 "" H 4938 2650 50  0001 C CNN
+F 3 "~" H 4900 2800 50  0001 C CNN
+	1    4900 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2800 5400 2800
+Connection ~ 5400 2800
+Wire Wire Line
+	5400 2800 5400 2900
+$Comp
+L power:GND #PWR?
+U 1 1 6016E5D3
+P 4600 2800
+F 0 "#PWR?" H 4600 2550 50  0001 C CNN
+F 1 "GND" V 4600 2550 50  0000 C CNN
+F 2 "" H 4600 2800 50  0001 C CNN
+F 3 "" H 4600 2800 50  0001 C CNN
+	1    4600 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 2800 4750 2800
+Wire Wire Line
+	4900 3200 3900 3200
+Wire Wire Line
+	4900 3300 3900 3300
+Wire Wire Line
+	4900 3400 3900 3400
+Wire Wire Line
+	4900 3500 3900 3500
+Wire Wire Line
+	4900 3600 3900 3600
+Wire Wire Line
+	4900 3700 3900 3700
+Wire Wire Line
+	4900 3800 3900 3800
+Wire Wire Line
+	4900 3900 3900 3900
+Wire Wire Line
+	4900 4200 3900 4200
+Wire Wire Line
+	4900 4300 3900 4300
+Wire Wire Line
+	4900 4400 3900 4400
+Text Label 4100 3200 0    50   ~ 0
+X0
+Text Label 4100 3300 0    50   ~ 0
+X1
+Text Label 4100 3400 0    50   ~ 0
+X2
+Text Label 4100 3500 0    50   ~ 0
+X3
+Text Label 4100 3600 0    50   ~ 0
+X4
+Text Label 4100 3700 0    50   ~ 0
+X5
+Text Label 4100 3800 0    50   ~ 0
+X6
+Text Label 4100 3900 0    50   ~ 0
+X7
+Text Label 4100 4200 0    50   ~ 0
+A
+Text Label 4100 4300 0    50   ~ 0
+B
+Text Label 4100 4400 0    50   ~ 0
+C
+$Comp
+L Connector_Generic:Conn_01x08 J?
+U 1 1 60189361
+P 3700 3500
+F 0 "J?" H 4000 3500 50  0000 C CNN
+F 1 "Conn_01x08" H 4000 3400 50  0000 C CNN
+F 2 "" H 3700 3500 50  0001 C CNN
+F 3 "~" H 3700 3500 50  0001 C CNN
+	1    3700 3500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4100 3900 4100
+Text Label 4100 4100 0    50   ~ 0
+INH
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 6018C262
+P 3700 4200
+F 0 "J?" H 4000 4200 50  0000 C CNN
+F 1 "Conn_01x04" H 4000 4100 50  0000 C CNN
+F 2 "" H 3700 4200 50  0001 C CNN
+F 3 "~" H 3700 4200 50  0001 C CNN
+	1    3700 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601ADB90
+P 6350 3200
+F 0 "R?" V 6300 3050 50  0000 C CNN
+F 1 "R" V 6300 3350 50  0000 C CNN
+F 2 "" V 6280 3200 50  0001 C CNN
+F 3 "~" H 6350 3200 50  0001 C CNN
+	1    6350 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 601ADF9C
+P 6800 3500
+F 0 "C?" H 6685 3454 50  0000 R CNN
+F 1 "C" H 6685 3545 50  0000 R CNN
+F 2 "" H 6838 3350 50  0001 C CNN
+F 3 "~" H 6800 3500 50  0001 C CNN
+	1    6800 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 3350 6800 3200
+Wire Wire Line
+	6800 3200 6500 3200
+Wire Wire Line
+	6200 3200 5900 3200
+$Comp
+L power:GND #PWR?
+U 1 1 601AF405
+P 6800 3900
+F 0 "#PWR?" H 6800 3650 50  0001 C CNN
+F 1 "GND" H 6805 3727 50  0000 C CNN
+F 2 "" H 6800 3900 50  0001 C CNN
+F 3 "" H 6800 3900 50  0001 C CNN
+	1    6800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3900 6800 3650
+Text Label 7550 3200 2    50   ~ 0
+OUT
+Wire Wire Line
+	7550 3200 6800 3200
+Connection ~ 6800 3200
+$EndSCHEMATC
